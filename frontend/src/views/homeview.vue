@@ -4,7 +4,7 @@
         <div class="logo-container">
           <!-- Espacio para el logo de la universidad -->
           <div class="uees">
-            <img src="/public/img/uees.png" alt="uees" />
+            <img src="/img/uees.png" alt="uees" />
           </div>
         </div>
         
