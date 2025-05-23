@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/homeview.vue'
 import LoginView from '../views/LoginView.vue';
 import DashboardView from '../views/dashboardview.vue'
-import MarkAttendanceView from '../components/Attendance/MarkAttendance.vue';
 import GenerateCodeView from '../components/Attendance/GenerateCode.vue';
 import AttendanceView from '@/views/AttendanceView.vue';
 const routes = [
@@ -25,7 +24,7 @@ const routes = [
   {
     path: '/mark-attendance',
     name: 'mark-attendance',
-    component: MarkAttendanceView,
+    component: AttendanceView,
     meta: { requiresAuth: true }
   },
   {
