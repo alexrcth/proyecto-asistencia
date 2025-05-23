@@ -13,7 +13,7 @@ class AccessCode(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return self.name
+        return self.code
 
 class Attendance(models.Model):  # <-- Debe estar fuera de Course
     student = models.ForeignKey(User, on_delete=models.CASCADE)

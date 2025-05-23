@@ -4,6 +4,7 @@ import LoginView from '../views/LoginView.vue';
 import DashboardView from '../views/dashboardview.vue'
 import MarkAttendanceView from '../components/Attendance/MarkAttendance.vue';
 import GenerateCodeView from '../components/Attendance/GenerateCode.vue';
+import AttendanceView from '@/views/AttendanceView.vue';
 const routes = [
   {
     path: '/',
